@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 int premier (int n){
     int i,tex;
     for(i=2;i<n;i++){
@@ -44,9 +44,9 @@ int main()
     } while(n<=0 || m<=0);
     
      if(premier(n)==0)
-       printf("le nombre %d n'est pas premie\n",n);
+       printf("le nombre %d n'est pas premier\n",n);
      else
-       printf("le nombre %d est premie\n",n);
+       printf("le nombre %d est premier\n",n);
      
     if(parfait(n)==0)
        printf("le nombre %d n'est pas parfait\n",n);
@@ -55,7 +55,7 @@ int main()
      
     
     if(amicaux(n,m)==0)
-       printf("les nombres %d et %d n'est sont pas amicaux",n,m);
+       printf("les nombres %d et %d ne sont pas amicaux",n,m);
      else
        printf("les nombres %d et %d sont amicaux",n,m);
 
